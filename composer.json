@@ -1,0 +1,7 @@
+{
+    "require": {
+        "components/jquery": "1.9.*",
+        "twbs/bootstrap": "3.0",
+        "abraham/twitteroauth": "^0.7.4"
+    }
+}
