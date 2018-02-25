@@ -5,14 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Twitter лента</title>
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap core CSS -->
     <link href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
     <link href="style.css" rel="stylesheet">
 </head>
-
 <body>
     <div class="container">
         <div class="row">
@@ -24,12 +20,11 @@
             </div>
         </div>
     </div>
-    <!-- SCRIPTS -->
+    
     <!-- JQuery -->
     <script type="text/javascript" src="vendor/components/jquery/jquery.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
-
     <script>
         function getTweets25(){
             var url = "getTweets.php";
